@@ -16,10 +16,16 @@ sudo git -C /opt clone https://github.com/iTroxB/subSpotx.git
 - Modify main.go file and enter Security Trails own API_KEY before compiling
 
 ```shell
-sudo nano /opt/subSpotx/main.go 
+sudo nano /opt/subSpotx/cmd/subSpotx/main.go 
 ```
 
 ![](/img/sub3.png)
+
+- Compile main.go file
+
+```shell
+sudo go build -o /opt/subSpotx/subSpotx /opt/subSpotx/cmd/subSpotx/main.go 
+```
 
 - To use the system-level tool as an executable binary from a relative path, create a symbolic link to the /usr/bin directory from the repository directory.
 
