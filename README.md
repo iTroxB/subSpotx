@@ -24,6 +24,7 @@ sudo nano /opt/subSpotx/cmd/subSpotx/main.go
 - Compile main.go file
 
 ```shell
+cd /opt/subSpotx
 sudo go build -o /opt/subSpotx/subSpotx /opt/subSpotx/cmd/subSpotx/main.go 
 ```
 
