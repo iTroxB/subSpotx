@@ -145,7 +145,7 @@ func printBanner() {
         fmt.Println(yellow("                      /_/ \n"))
         fmt.Println(turquoise("  Subdomain Discovery Tool"))
         fmt.Println(blue("  Version 1.0"))
-                fmt.Println(turquoise("  Made by iTrox"))
+        fmt.Println(turquoise("  Made by iTrox"))
         fmt.Println(blue("  subSpotx [-h] to view help menu"))
 }
 
